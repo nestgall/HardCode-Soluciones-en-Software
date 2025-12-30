@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #FFFFFF;
+    color: #0B0B0B;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 40px;
+    background: white;
+  
+}
+
+.logo {
+    width: 70px;
+
+}
+
+nav a {
+    color: #0B0B0B;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1DB954;
+}
+
+.hero {
+    height: 90vh;
+    background: linear-gradient(135deg, #0A3D91, #0B0B0B);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero button {
+    border-radius: 15px;
+    margin-top: 20px;
+    padding: 12px 25px;
+    border-color: white;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.hero button:hover {
+    background: white;
+    color: #0B0B0B;
+}
+
+.section {
+    padding: 80px 40px;
+    text-align: center;
+}
+
+.section h2 {
+    margin-bottom: 40px;
+    color: #0A3D91;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #F4F4F4;
+    padding: 30px;
+    width: 280px;
+    border-radius: 10px;
+}
+
+.dark {
+    background: #0B0B0B;
+    color: white;
+}
+
+footer {
+    background: #0A3D91;
+    color: white;
+    padding: 40px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+}
+
+.social-media a{
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+  
+}
