@@ -38,7 +38,7 @@ nav a:hover {
 .hero {
     height: 90vh;
     background: linear-gradient(135deg, #0A3D91, #0B0B0B);
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -102,6 +102,11 @@ footer {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+   
+
+    a{
+        color: #25D366
+    }
 }
 
 .copy {
